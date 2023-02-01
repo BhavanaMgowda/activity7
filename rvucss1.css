@@ -1,0 +1,156 @@
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(166, 171, 178);
+}
+.img-fluid{
+    margin: 0%;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 17%;
+    border-radius: 50%;
+}
+
+.first-txt {
+    position: absolute;
+    margin: 0%;
+    top: 0%;
+    left: 235px;
+    color:  rgb(244, 187, 89);
+    font-size: 330%;
+    text-shadow: 2px 2px #a4740d;
+}
+.rsst{
+    position: absolute;
+    margin: 1%;
+    top: 1%;
+    left: 85px;
+    color: rgb(244, 187, 89);
+    font-size: 150%;
+  }
+.gctw{
+position: absolute;
+    margin: 5%;
+    top: 5%;
+    left: 180px;
+    color: rgb(244, 187, 89);
+    font-size: 100%;
+}
+nav {
+float: left;
+width: 20%;
+height: 910px; 
+background: rgb(29, 43, 64);
+padding: 30px;
+text-align: center;
+}
+nav:hover{
+
+
+background-color:#165a6d; 
+}
+.txt{
+color: #ebc575;
+}
+.cf{
+color: #ebc575;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+
+article {
+float: left;
+padding: 40px;
+width: 80%;
+background-color: #deb55d;
+height: 900px; 
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mine {
+float: left;
+padding:40px;
+width: 80%;
+background-color:#f1c15f; 
+height: auto;
+color: #0b2e38;
+font-size: 100%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mine:hover{
+
+
+background-color:#e69f13; 
+}
+.abc {
+text-decoration: none;
+color: rgb(193, 160, 130);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.abcd{
+text-decoration:underline;
+
+}
+
+
+section::after {
+content: "";
+display: table;
+clear: both;
+}
+.media{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+.ff{
+background-color:#deb5551;
+height: auto;
+color: black;
+padding: 20px;
+font-size: 16px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer{
+background-color: rgb(166, 171, 178);
+padding: 0px;
+text-align: center; 
+color: rgb(7, 45, 72);
+}
+.animation {
+margin-top: 1%;
+width: 50%;
+height: 53px;
+background-color:rgb(5, 66, 83);
+font-weight: bold;
+position: absolute;
+animation: mymove 5s infinite;
+}
+
+#div1 {animation-timing-function: second;}
+#div2 {animation-timing-function: third;}
+
+@keyframes mymove {
+from {left: 2px;}
+to {left: 500px;}
+}
+
+
+@media (max-width: 600px){
+nav, article {
+width: 300%;
+height: auto;
+}
+}
+
+</style>
